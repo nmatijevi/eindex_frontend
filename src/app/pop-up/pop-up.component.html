@@ -1,0 +1,29 @@
+<div class="pop-up">
+  <h3>{{'add-professor.title-professor' | translate}}</h3>
+  <form #addForm="ngForm" (ngSubmit)="onAddProfessor(addForm)">
+    <div class="input-group">
+      <input type="text" ngModel name="firstName" id="firstName" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="{{'add-professor.firstName' | translate}}" required>
+      <input type="text" ngModel name="lastName" id="lastName" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="{{'add-professor.lastName' | translate}}" required>
+    </div>
+    <div class="input-group-prepend">
+      <input type="email" ngModel name="email" id="email" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="{{'add-professor.email' | translate}}" required>
+    </div>
+    <div class="input-group-prepend">
+      <input type="text" ngModel name="username" id="username" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="{{'add-professor.username' | translate}}" required>
+    </div>
+    <div class="input-group-prepend">
+      <input type="password" ngModel name="password" id="password" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="{{'add-professor.password' | translate}}" required>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="inputGroupSelect01">{{'add-professor.label-title' | translate}}</label>
+      </div>
+      <select class="custom-select" id="inputGroupSelect01" ngModel name="title" required>
+        <option value="Profesor">{{'add-professor.professor' | translate}}</option>
+        <option value="Student" disabled>{{'add-professor.student' | translate}}</option>
+        <option value="Admin" disabled>{{'add-professor.admin' | translate}}</option>
+      </select>
+    </div>
+    <button type="submit" [disabled]="addForm.invalid" (click)="addSingle()" class="btn btn-primary">{{'add-professor.btn' | translate}}</button>
+  </form>
+</div>

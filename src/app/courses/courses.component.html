@@ -1,0 +1,16 @@
+<div class="container">
+    <button pButton label="{{'courses.btn' | translate}}" (click)="openDialog()" icon="pi pi-plus" iconPos="left" class="mt-5 button button3"></button>
+    <div class="row">
+        <div *ngFor="let course of courses" class="col-lg-4">
+            <div class="card card-margin d-flex">
+                <div class="card-header no-border">
+                    <h5 class="card-title">{{ course.name }}</h5>
+                </div>
+                <div class="widget-49-meeting-action ml-auto mr-2 mb-2 float-right">
+                    <a class="btn btn-sm btn-flash-border-primary" (click)="getCurrentCourse(course.id)">{{'courses.details' | translate}}</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

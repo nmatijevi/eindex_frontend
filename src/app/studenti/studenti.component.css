@@ -1,0 +1,34 @@
+body{
+    min-height: 100%;
+    position: absolute;
+  }
+  table{
+    position: relative;
+    margin-top: 16px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  }
+  .button {
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 2px;
+    width: auto;
+  }
+  .button3{
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  }
+  .button3:hover{
+    background-color: #028f5d;
+    transition: ease-in-out 0.2s;
+  }
+  .btn-delete{
+    background-color: #d92424;
+  }
+  
+  

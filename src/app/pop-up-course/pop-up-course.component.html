@@ -1,0 +1,10 @@
+<div class="pop-up m-3">
+    <h3>{{'add-professor.title-course' | translate}}</h3>
+  <form #addForm="ngForm" (ngSubmit)="onAddCourse(addForm)">
+    <div class="input-group">
+      <input type="text" ngModel name="name" id="name" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="{{'add-professor.course-name' | translate}}" required>
+    </div>
+    <button type="submit" [disabled]="addForm.invalid" class="btn btn-primary mt-3">{{'add-professor.btn' | translate}}</button>
+  </form>
+</div>
+  

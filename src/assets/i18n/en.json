@@ -1,0 +1,72 @@
+{
+    "language": {
+        "croatian": "Croatian",
+        "english": "English"
+    },
+    "navbar": {
+        "home": "Home",
+        "professors": "Professors",
+        "students": "Students",
+        "courses": "Courses",
+        "logout": "Logout"
+    },
+    "professor":{
+        "btn": "Add new student",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "status": "Status",
+        "email": "Email"
+    },
+    "students":{
+      "btn": "Add new student",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "status": "Status",
+      "email": "Email"
+    },
+    "courses":{
+        "btn": "Add new",
+        "details": "Details",
+        "title-student": "Add student",
+        "title-profesor": "Add professor"
+    },
+    "add-professor":{
+        "title-professor": "New professor",
+        "title-student": "New student",
+        "title-course": "New course",
+        "title-edit": "Edit",
+        "course-name": "Name",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "status": "Status",
+        "email": "Email",
+        "username": "Username",
+        "password": "Password",
+        "label-title": "Select",
+        "professor": "Professor",
+        "student": "Student",
+        "admin": "Admin",
+        "btn": "Save",
+        "btn-back": "Back"
+    },
+    "home":{
+        "students": "Students",
+        "professors": "Professors",
+        "courses": "Courses"
+    },
+    "professor-course":{
+        "title1": "Welcome",
+        "title2": "This is an overview of your courses:",
+        "title3": "Students:",
+        "pdf": "Export PDF"
+    },
+    "table":{
+        "clear": "Clear",
+        "search": "Search keyword"
+    },
+    "grade":{
+        "header": "Grade",
+        "message": "Grade not entered",
+        "course": "Course"
+    }
+}

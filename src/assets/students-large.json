@@ -1,0 +1,16 @@
+{
+    "data":[
+        {
+            "id": 1, "firstName": "John", "secondName": "Doe", "studies": "Elektrotehnika", "year": "3"
+        },
+        {
+            "id": 2, "firstName": "Helga", "secondName": "Dolly", "studies": "Informatika", "year": "2"
+        },
+        {
+            "id": 3, "firstName": "Mark", "secondName": "Wuper", "studies": "Informatika", "year": "1"
+        },
+        {
+            "id": 4, "firstName": "Jogny", "secondName": "Elton", "studies": "Računarstvo", "year": "5"
+        }
+    ]
+}

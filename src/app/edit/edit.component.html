@@ -1,0 +1,39 @@
+<div class="m-5">
+  <h3>
+    {{'add-professor.title-edit' | translate}} 
+  </h3>
+    <form #editForm="ngForm" (ngSubmit)="onEditUser(editForm.value)">
+  <div class="form-group">
+    <label for="name">{{'add-professor.firstName' | translate}}:</label>
+    <input type="text" class="form-control" ngModel ngModel="{{profesors?.firstName}}" name="firstName" id="firstName">
+  
+  </div>
+  <div class="form-group">
+    <label for="name">{{'add-professor.lastName' | translate}}:</label>
+    <input type="text" class="form-control" ngModel="{{profesors?.lastName}}" name="lastName" id="lastName">
+  
+  </div>
+  <div class="form-group">
+    <label for="name">{{'add-professor.email' | translate}}:</label>
+    <input type="text" class="form-control" ngModel="{{profesors?.email}}" name="email" id="email">
+  
+  </div>
+  <div class="form-group">
+    <label for="name">{{'add-professor.username' | translate}}:</label>
+    <input type="text" class="form-control" ngModel="{{profesors?.username}}" name="username" id="username">
+  </div>
+  <div class="form-group">
+    <label for="name">{{'add-professor.password' | translate}}:</label>
+    <input type="password" class="form-control" ngModel="{{profesors?.password}}" name="password" id="password">
+  </div>
+  <div class="form-group">
+    <label for="name">{{'add-professor.status' | translate}}</label>
+    <input type="text" class="form-control" ngModel="{{profesors?.title}}" name="title" id="title">
+  
+  </div>
+  
+  <button type="submit" style='margin-right:16px' class="btn btn-success">{{'add-professor.btn' | translate}}</button>
+  <button style='margin-right:16px' routerLink="/profesori" class="btn btn-success">{{'add-professor.btn-back' | translate}}</button>
+  
+  </form>
+</div>

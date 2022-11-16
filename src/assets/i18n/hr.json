@@ -1,0 +1,72 @@
+{
+    "language": {
+        "croatian": "Hrvatski",
+        "english": "Engleski"
+      },
+      "navbar": {
+        "home": "Početna",
+        "professors": "Profesori",
+        "students": "Studenti",
+        "courses": "Kolegiji",
+        "logout": "Odjavi se"
+      },
+      "professor":{
+        "btn": "Dodaj novog profesora",
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "status": "Status",
+        "email": "Email"
+      },
+      "students":{
+        "btn": "Dodaj novog studenta",
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "status": "Status",
+        "email": "Email"
+      },
+      "courses":{
+          "btn": "Dodaj",
+          "details": "Detalji",
+          "title-student": "Dodaj studenta",
+          "title-profesor": "Dodaj profesora"
+      },
+      "add-professor":{
+          "title-professor": "Novi profesor",
+          "title-student": "Novi student",
+          "title-course": "Novi kolegij",
+          "course-name": "Ime kolegija",
+          "title-edit": "Uređivanje",
+          "firstName": "Ime",
+          "lastName": "Prezime",
+          "status": "Status",
+          "email": "Email",
+          "username": "Korisničko ime",
+          "password": "Lozinka",
+          "label-title": "Odaberite",
+          "professor": "Profesor/ica",
+          "student": "Student/ica",
+          "admin": "Admin",
+          "btn": "Spremi",
+          "btn-back": "Natrag"
+      },
+      "home":{
+          "students": "Studenata",
+          "professors": "Profesora",
+          "courses": "Kolegija"
+      },
+      "professor-course":{
+        "title1": "Dobrodošli",
+        "title2": "Ovo je pregled Vaših kolegija:",
+        "title3": "Studenti:",
+        "pdf": "Preuzmi PDF"
+      },
+      "table":{
+        "clear": "Očisti",
+        "search": "Pretraži"
+      },
+      "grade":{
+        "header": "Ocjena",
+        "message": "Ocjena nije upisana",
+        "course": "Kolegij"
+      }
+}

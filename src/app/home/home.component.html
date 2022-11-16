@@ -1,0 +1,73 @@
+<div class="d-flex justify-content-center mt-5">
+    <div class="col-xl-3 col-sm-6 col-12">
+        <a type="text" routerLink="/profesori" class="text-decoration-none">
+            <div class="card">
+            <div class="card-content">
+                <div class="card-body">
+                <div class="media d-flex">
+                    <div class="media-body text-left">
+                    <h3 class="success">{{numOfProfessors}}</h3>
+                    <span class="text-dark">{{'home.professors' | translate}}</span>
+                    </div>
+                    <div class="align-self-center">
+                    <i class="icon-user success font-large-2 float-right"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </a>
+    </div>
+
+  <div class="col-xl-3 col-sm-6 col-12">
+    <a routerLink="/studenti" class="text-decoration-none">
+        <div class="card">
+        <div class="card-content">
+            <div class="card-body">
+            <div class="media d-flex">
+                <div class="media-body text-left">
+                <h3 class="info">{{numOfStudents}}</h3>
+                <span class="text-dark">{{'home.students' | translate}}</span>
+                </div>
+                <div class="align-self-center">
+                <i class="icon-user info font-large-2 float-right"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </a>
+  </div>
+
+  <div class="col-xl-3 col-sm-6 col-12">
+    <a routerLink="/kolegiji" class="text-decoration-none">
+        <div class="card">
+        <div class="card-content">
+            <div class="card-body">
+            <div class="media d-flex">
+                <div class="media-body text-left">
+                <h3 class="warning">{{numOfCourses}}</h3>
+                <span class="text-dark">{{'home.courses' | translate}}</span>
+                </div>
+                <div class="align-self-center">
+                <i class="icon-book-open warning font-large-2 float-right"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </a>
+  </div>
+</div>
+<div class="d-flex justify-content-center">
+    <div>
+      <div class="chart" style="display: block; width: 500px; height: 600px;">
+        <canvas baseChart
+                [data]="pieChartData"
+                [type]="pieChartType"
+                [options]="pieChartOptions"
+                [plugins]="pieChartPlugins">
+        </canvas>
+      </div>
+    </div>
+  </div>
